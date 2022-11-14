@@ -19,33 +19,31 @@ print(pow(2,3))
 ## CLASSES
 #### CLASSES EXAMPLE
 ```py
-class Critter(object):
-    """A virtual pet"""
-    def __init__(self, name, hunger = 0, boredom = 0):
-        self.name = name
-        self.hunger = hunger
-        self.boredom = boredom
+# https://brilliant.org/wiki/classes-oop/
+class Car(object):
+    def __init__(self, model, passengers, color, speed):
+        self.model = model
+        self.passengers = passengers
+        self.color = color
+        self.speed = speed
 
-    def __pass_time(self):
-        self.hunger += 1
-        self.boredom += 1
+    def accelerate(self):
+        self.speed = self.speed + 2
+        print (self.model, "accelerate!", self.speed)
 
-    @property
-    def mood(self):
-        unhappiness = self.hunger + self.boredom
-        if unhappiness < 5:
-            m = "happy"
-        elif 5 <= unhappiness <= 10:
-            m = "okay"
-        elif 11 <= unhappiness <= 15:
-            m = "frustrated"
-        else:
-            m = "mad"
-        return m
+bmw = Car("BMW", 4, "red", 5)
+ferrari = Car("Ferrari", 2, "black", 10)
+ford = Car("Ford", 6, "blue", 6)
 
-    def talk(self):
-        print("I'm", self.name, "and I feel", self.mood, "now.\n")
-        self.__pass_time()
+bmw.accelerate()
+print ("BMW color", bmw.color)
+
+ferrari.accelerate()
+print ("Ferrari color",  ferrari.color)
+ferrari.accelerate() #note that the speed has been updated from the previous accelerate call
+
+print ("Ford Passengers", ford.passengers)
+ford.accelerate()
 ```
 
 ## THE CRITTER CARETAKER PROGRAM

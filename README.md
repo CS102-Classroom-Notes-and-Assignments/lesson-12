@@ -19,7 +19,8 @@ print(pow(2,3))
 ## CLASSES
 #### CLASSES EXAMPLE
 
-![alt text](classes.png "title")
+<img src="classes.png " alt="drawing" style="width:500px;"/>
+
 Image: https://brilliant.org/wiki/classes-oop/
 
 ```py

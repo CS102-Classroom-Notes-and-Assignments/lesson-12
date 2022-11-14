@@ -18,6 +18,10 @@ print(pow(2,3))
 
 ## CLASSES
 #### CLASSES EXAMPLE
+
+![alt text](classes.png "title")
+Image: https://brilliant.org/wiki/classes-oop/
+
 ```py
 # https://brilliant.org/wiki/classes-oop/
 class Car(object):

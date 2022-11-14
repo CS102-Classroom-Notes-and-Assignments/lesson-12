@@ -51,6 +51,9 @@ print ("Ford Passengers", ford.passengers)
 ford.accelerate()
 ```
 
+
+
+
 ## THE CRITTER CARETAKER PROGRAM
 #### FULL PROGRAM
 ```python
@@ -142,6 +145,12 @@ def main():
 main()
 ("\n\nPress the enter key to exit.")
 ```
+
+Helpful Resources:
+- **__init__** is the constructor. Constructors are used to initializing the object’s state. The task of constructors is to initialize(assign values) to the data members of the class when an object of the class is created. https://www.geeksforgeeks.org/__init__-in-python/
+- **__pass_time()** - The double underscore __ prefixed to a variable makes it private. It gives a strong suggestion not to touch it from outside the class. Any attempt to do so will result in an AttributeError. https://www.tutorialsteacher.com/python/public-private-protected-modifiers
+- **@property** https://www.programiz.com/python-programming/property, https://programiz.com/python-programming/decorator
+
 
 ## MAKE OUR OWN PYTHON CLASS!
 

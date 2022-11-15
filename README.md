@@ -4,8 +4,8 @@
 https://www.w3schools.com/python/python_datatypes.asp
 ```py
 # Text Type:	    str
-# Numeric Types:	int, float, complex
-# Sequence Types:	list, tuple, range
+# Numeric Types:    int, float, complex
+# Sequence Types:   list, tuple, range
 # Mapping Type:	    dict
 # Set Types:	    set, frozenset
 # Boolean Type:	    bool

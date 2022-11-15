@@ -155,4 +155,5 @@ Helpful Resources:
 ## MAKE OUR OWN PYTHON CLASS!
 
 ## HOMEWORK
-- hw link (you can work in teams, have at least one test case passing before the end of class): https://classroom.github.com/a/-yTUqSSn
+- hw link (you can work in teams): https://classroom.github.com/a/-yTUqSSn
+- highly reccomend having at least one test case passing before the end of class

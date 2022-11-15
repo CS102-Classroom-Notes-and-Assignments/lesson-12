@@ -155,4 +155,4 @@ Helpful Resources:
 ## MAKE OUR OWN PYTHON CLASS!
 
 ## HOMEWORK
-- hw link (you can work in teams): https://classroom.github.com/a/-yTUqSSn
+- hw link (you can work in teams, have at least one submission before the end of class): https://classroom.github.com/a/-yTUqSSn
